@@ -1,0 +1,8 @@
+﻿<Application x:Class="AionMoneyCounter.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:AionMoneyCounter">
+    <Application.Resources>
+        <local:StringListConverter x:Key="StringListConverter"/>
+    </Application.Resources>
+</Application>
